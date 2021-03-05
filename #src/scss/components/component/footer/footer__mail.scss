@@ -1,0 +1,13 @@
+.footer__mail {
+    display: flex;
+    align-content: center;
+    margin: 0 0 5% 0;
+
+    @extend %montserrat-regular;
+    font-size: 14px;
+    line-height: 17px;
+
+    img {
+        margin-right: 25px;
+    }
+}

@@ -1,7 +1,14 @@
     <footer class="footer">
         <div class="footer__body">
-            @@include('../page-templates/footer/_footer__top-row.html')
-            @@include('../page-templates/footer/_footer__bottom-row.html')
+            <div class="footer__logo-copy">
+                @@include('../page-templates/footer/_footer__logo.html')
+                @@include('../page-templates/footer/_footer__copyright.html')
+            </div>
+            <div class="footer__content">
+                @@include('../page-templates/footer/_footer__top-row.html')
+                @@include('../page-templates/footer/_footer__bottom-row.html')
+            </div>
+            
         </div>
     </footer>
 

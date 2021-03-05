@@ -1,6 +1,21 @@
 .header__cart {
+    z-index: 2;
     button {
         background: none;
         border: none;
+    }
+
+    &-icon--black {
+          display: none;  
+    }
+
+    @include mq('tablet-wide') {
+        &-icon {
+            display: none;  
+
+            &--black {
+                display: block;  
+            }
+      }
     }
 }

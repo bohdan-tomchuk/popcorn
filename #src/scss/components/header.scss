@@ -6,14 +6,17 @@
     min-height: 120px;
     top: 0;
     left: 0;
-    padding: 13px 74px;
     z-index: 50;
 
     &::before {
         content: "";
         position: absolute;
-        width: 100%;
+        top: 0;
+        left: 0;
         height: 100%;
+        width: 100%;
+        background: transparent;
+        z-index: 2;
     } 
 
     &__content {
@@ -21,7 +24,7 @@
         display: flex;
         justify-content: space-between; 
         align-items: center;
-        z-index: 2;
+        padding: 13px 74px;
 
         @extend %montserrat-regular;
         color: white; 
@@ -30,6 +33,10 @@
     @include mq('tablet-wide') {
         & {
             background: white;
+
+            &::before {
+                background: white;
+            }
         }
     }
 }

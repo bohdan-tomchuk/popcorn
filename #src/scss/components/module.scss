@@ -1,5 +1,6 @@
 @import 'header';
 @import 'footer';
+@import 'main.scss';
 
 // ATOM
 @import 'atom/a-btn';
@@ -16,7 +17,9 @@
 @import 'component/header/header__burger.scss';
 @import 'component/header/header__logo.scss';
 @import 'component/hero/hero__slider.scss';
-@import 'component/hero/hero__main.scss';
+@import 'component/hero/hero__logo.scss';
+@import 'component/hero/hero__main-black.scss';
+@import 'component/hero/hero__main-white.scss';
 @import 'component/hero/hero__social.scss';
 @import 'component/assortment.scss';
 @import 'component/assortment/assortment__content.scss';
@@ -30,4 +33,9 @@
 @import 'component/footer/footer__tastes.scss';
 @import 'component/footer/footer__nav.scss';
 @import 'component/footer/footer__logo.scss';
+@import 'component/footer/footer__copyright.scss';
+@import 'component/footer/footer__location.scss';
+@import 'component/footer/footer__phones.scss';
+@import 'component/footer/footer__mail.scss';
+
 

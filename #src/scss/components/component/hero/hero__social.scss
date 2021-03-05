@@ -7,4 +7,11 @@
     a:first-of-type {
         margin-right: 33px;
     }
+
+    @include mq('tablet-wide') {
+        & {
+            bottom: 75px;
+            right: calc(50% - 53.5px);
+        }
+    }
 }

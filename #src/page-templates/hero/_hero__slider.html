@@ -1,9 +1,21 @@
 <div class="hero__slider">
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="../../img/hero/hero-slide1.png" alt=""></div>
-            <div class="swiper-slide"><img src="../../img/hero/hero-slide2.png" alt=""></div>
-            <div class="swiper-slide"><img src="../../img/hero/hero-slide3.png" alt=""></div>
+            <div class="swiper-slide">
+                @@include('_hero__logo.html')
+                <img src="../../img/hero/hero-slide1.png" alt="">
+                @@include('_hero__main-black.html')
+            </div>
+            <div class="swiper-slide">
+                @@include('_hero__logo.html')
+                <img src="../../img/hero/hero-slide2.png" alt="">
+                @@include('_hero__main-white.html')
+            </div>
+            <div class="swiper-slide">
+                @@include('_hero__logo.html')
+                <img src="../../img/hero/hero-slide3.png" alt="">
+                @@include('_hero__main-black.html')
+            </div>
         </div>
         <div class="swiper-pagination"></div>
     

@@ -2,8 +2,81 @@
     width: 100%;
 
     .swiper-container {
-        width: 100% ;
+        width: 100%;
+        height: 100%;
     }
 
+    .swiper-pagination {
+        &-bullets {
+            bottom: 30px;
+        }   
+
+        &-bullet {
+            background-color: white;
+            opacity: 1;
+            width: 20px;
+            height: 20px;
+
+            &:not(:last-of-type) {
+                margin: 0 40px 0 0;
+            }
+
+            &-active {
+                background-color: $color-pesto;
+            }
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        color: white;
+        &::after {
+            font-size: 50px;
+            font-weight: 900;
+        }
+    }
+
+    .swiper-button-prev {
+        left: 40px;
+    }
+
+    .swiper-button-next {
+        right: 40px;
+    }
+
+    @include mq('tablet-wide') {
+        .swiper-button-prev, .swiper-button-next {
+            top: calc( 100% - var(--swiper-navigation-size)/ 1.05);
+
+            &::after {
+                font-size: 30px;
+                font-weight: 900;
+            }
+        }
+
+        .swiper-button-prev {
+            left: 25%;
+        }
     
+        .swiper-button-next {
+            right: 26%;
+        }
+    }
+
+    @include mq('tablet-small') {
+        .swiper-button-prev, .swiper-button-next {
+            top: calc( 100% - var(--swiper-navigation-size)/ 1.05);
+
+            &::after {
+                font-size: 30px;
+                font-weight: 900;
+            }
+        }
+        .swiper-button-prev {
+            left: 15%;
+        }
+    
+        .swiper-button-next {
+            right: 16%;
+        }
+    }
 }

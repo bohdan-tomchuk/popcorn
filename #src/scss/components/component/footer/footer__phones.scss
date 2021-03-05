@@ -1,0 +1,13 @@
+.footer__phones {
+    display: flex;
+    align-content: center;
+    margin: 0 5% 5% 0;
+
+    @extend %montserrat-regular;
+    font-size: 14px;
+    line-height: 17px;
+
+    img {
+        margin-right: 25px;
+    }
+}

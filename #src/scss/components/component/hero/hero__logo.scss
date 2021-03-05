@@ -1,0 +1,14 @@
+.hero__logo {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    @include mq('tablet-wide') {
+        & {
+            display: block;
+        }
+    }
+}
