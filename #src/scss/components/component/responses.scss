@@ -1,0 +1,31 @@
+.responses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 97px;
+
+    h2 {
+        @extend %bodoni-regular;
+        font-size: 26px;
+        color: $color-soya-bean;
+        margin-bottom: 28px;
+    }
+
+    img {
+        margin-bottom: 43px;
+    }
+
+    &__slider {
+        margin-bottom: 67px;
+    }
+    
+    &__btn {
+        padding: 17px 26px;
+        background: $color-mine-shaft;
+        color: white;
+        @extend %montserrat-semibold;
+        font-size: 14px;
+        border: none;
+        border-radius: 15px;
+    }
+}

@@ -1,0 +1,9 @@
+.footer__tastes {
+    @extend %montserrat-regular;
+    font-size: 14px;
+    margin-right: 107px;
+
+    p:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+}

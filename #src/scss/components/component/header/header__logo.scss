@@ -1,0 +1,7 @@
+.header__logo {
+    @include mq('tablet-wide') {
+        & {
+            display: none;
+        }
+    }
+}

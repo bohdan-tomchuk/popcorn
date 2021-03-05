@@ -1,0 +1,13 @@
+.sale {
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__lines {
+        width: 100%;
+        max-width: 708px;
+        margin-bottom: 41px;
+    }
+}

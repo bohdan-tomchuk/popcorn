@@ -1,0 +1,26 @@
+.assortment {
+    color: $color-soya-bean;
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 69px 0 26px 0;
+    }
+
+    h2 {
+        @extend %bodoni-regular;
+        font-size: 37px;
+        text-transform: uppercase;
+    }
+
+    .subtitle {
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    &__lines {
+        width: 100%;
+        max-width: 708px;
+    }
+}

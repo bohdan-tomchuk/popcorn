@@ -1,0 +1,48 @@
+.header__nav {
+
+    &-list {
+        display: flex;
+        min-width: 0;
+
+        li:not(:last-of-type) {
+            margin-right: 5%;
+        }
+
+        a {
+            text-decoration: none;
+            @extend %montserrat-semibold;
+            font-size: 18px;
+            padding: 1rem;
+        }
+
+        a:hover {
+            font-weight: 500;
+            padding: 0 0 4px 0;
+            border-bottom: 2px solid white;
+        }
+    }
+
+    @include mq('tablet-wide') {
+        & {
+            display: none;
+        }
+
+        &-list {
+            
+            position: fixed;
+            top: -150%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            padding: 130px 0 0 20px;
+            transition: all 0.3s ease 0s;
+            overflow: auto;
+            
+            &.active {
+                top: 0;
+            }
+        }
+    }
+
+}

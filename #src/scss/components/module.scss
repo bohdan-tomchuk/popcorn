@@ -1,0 +1,33 @@
+@import 'header';
+@import 'footer';
+
+// ATOM
+@import 'atom/a-btn';
+@import 'atom/breadcrumps';
+@import 'atom/lang';
+@import 'atom/hamburger';
+@import 'atom/modal';
+ 
+// COMPONENT
+@import 'component/hero';
+@import 'component/header/header__nav.scss';
+@import 'component/header/header__cart.scss';
+@import 'component/header/header__contacts.scss';
+@import 'component/header/header__burger.scss';
+@import 'component/header/header__logo.scss';
+@import 'component/hero/hero__slider.scss';
+@import 'component/hero/hero__main.scss';
+@import 'component/hero/hero__social.scss';
+@import 'component/assortment.scss';
+@import 'component/assortment/assortment__content.scss';
+@import 'component/decoration/decoration-lines.scss';
+@import 'component/responses.scss';
+@import 'component/responses/responses__slider.scss';
+@import 'component/sale.scss';
+@import 'component/sale/sale__content.scss';
+@import 'component/footer/footer__top-row.scss';
+@import 'component/footer/footer__bottom-row.scss';
+@import 'component/footer/footer__tastes.scss';
+@import 'component/footer/footer__nav.scss';
+@import 'component/footer/footer__logo.scss';
+
